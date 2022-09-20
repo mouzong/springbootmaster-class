@@ -2,6 +2,7 @@ package tech.codegrill.springbootmasterclassamigoscode.customer;
 
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -13,13 +14,21 @@ public class CustomerController {
         this.customerService = customerService;
     }
 
-    @GetMapping
+    @GetMapping(path = "all")
     public List<Customer> getCustomers(){
+
         return customerService.getCustomers();
     }
 
+    @GetMapping(path = "{customerId}")
+    public Customer getCustomer(@PathVariable("customerId") Long id){
+
+        return customerService.getCustomer(id);
+
+    }
+
     @PostMapping
-    void createNewCustomer(@RequestBody Customer customer){
+    void createNewCustomer(@Valid @RequestBody Customer customer){
         System.out.println("POST REQUEST ....");
         System.out.println(customer);
     }

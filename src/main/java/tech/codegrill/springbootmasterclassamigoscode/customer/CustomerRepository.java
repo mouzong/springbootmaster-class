@@ -11,7 +11,7 @@ public class CustomerRepository implements CustomerRepo{
     @Override
     public List<Customer> getCustomers() {
         return Collections.singletonList(
-                new Customer(1L, "TODO add a customer here over", "testpassword")
+                new Customer(1L, "TODO add a customer here over", "testPassword", "personal@email.com")
         );
     }
 }
