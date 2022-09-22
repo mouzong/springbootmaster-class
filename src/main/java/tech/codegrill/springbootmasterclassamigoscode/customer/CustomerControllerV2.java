@@ -1,17 +1,17 @@
 package tech.codegrill.springbootmasterclassamigoscode.customer;
 
 import org.springframework.web.bind.annotation.*;
+import tech.codegrill.springbootmasterclassamigoscode.exception.ApiRequestException;
 
 import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@Deprecated
-@RequestMapping("/api/v1/customers")
-public class CustomerController {
+@RequestMapping("/api/v2/customers")
+public class CustomerControllerV2 {
     private final CustomerService customerService;
 
-    public CustomerController(CustomerService customerService) {
+    public CustomerControllerV2(CustomerService customerService) {
         this.customerService = customerService;
     }
 
@@ -23,9 +23,19 @@ public class CustomerController {
 
     @GetMapping(path = "{customerId}")
     public Customer getCustomer(@PathVariable("customerId") Long id){
-
         return customerService.getCustomer(id);
+    }
 
+    /**
+     * Get customer Exception using the controller advice
+     * @param id
+     * @return
+     */
+    @GetMapping(path = "{customerId}/exception")
+    public Customer getCustomerException(@PathVariable("customerId") Long id){
+        throw new ApiRequestException(
+                "ApiRequestException for Customer "+ id
+        );
     }
 
     @PostMapping

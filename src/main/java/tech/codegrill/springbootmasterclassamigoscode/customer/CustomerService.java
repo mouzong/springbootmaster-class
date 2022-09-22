@@ -2,6 +2,7 @@ package tech.codegrill.springbootmasterclassamigoscode.customer;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import tech.codegrill.springbootmasterclassamigoscode.exception.NotFoundException;
 
 import java.util.List;
 
@@ -21,6 +22,6 @@ public class CustomerService {
                 .stream()
                 .filter(customer -> customer.getId().equals(id))
                 .findFirst()
-                .orElseThrow(() -> new IllegalStateException("Customer with ID "+ id +" not found"));
+                .orElseThrow(() -> new NotFoundException("Customer with ID "+ id +" not found"));
      }
 }
