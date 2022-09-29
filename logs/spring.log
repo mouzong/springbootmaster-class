@@ -9715,3 +9715,308 @@ Unconditional classes:
 2022-57-29 14:57:07 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-57-29 14:57:07 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
 2022-57-29 14:57:07 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-03-29 15:03:27 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 15:03:27 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-29 15:03:27 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-03-29 15:03:27 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-03-29 15:03:29 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 9549 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-03-29 15:03:29 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-03-29 15:03:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-29 15:03:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-03-29 15:03:31 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=1ad9b37a-c001-3e49-b158-a72f4f2e26ff
+2022-03-29 15:03:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-03-29 15:03:31 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-03-29 15:03:31 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-03-29 15:03:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-03-29 15:03:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1572 ms
+2022-03-29 15:03:31 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-03-29 15:03:31 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-03-29 15:03:31 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-03-29 15:03:32 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-29 15:03:32 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-03-29 15:03:32 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-29 15:03:32 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-29 15:03:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-29 15:03:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-29 15:03:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-29 15:03:33 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-29 15:03:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-29 15:03:33 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 3.987 seconds (JVM running for 4.648)
+2022-03-29 15:03:34 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-29 15:03:34 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-03-29 15:03:34 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-06-29 15:06:41 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 15:06:41 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-06-29 15:06:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-06-29 15:06:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-06-29 15:06:44 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 9753 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-06-29 15:06:44 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-06-29 15:06:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 15:06:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-06-29 15:06:45 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=1ad9b37a-c001-3e49-b158-a72f4f2e26ff
+2022-06-29 15:06:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-06-29 15:06:45 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-06-29 15:06:45 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-06-29 15:06:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-06-29 15:06:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1287 ms
+2022-06-29 15:06:45 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-06-29 15:06:45 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-06-29 15:06:45 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-06-29 15:06:46 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 15:06:46 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-06-29 15:06:46 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 15:06:46 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-06-29 15:06:46 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 15:06:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 15:06:47 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 15:06:47 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-06-29 15:06:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-29 15:06:47 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 3.618 seconds (JVM running for 4.173)
+2022-06-29 15:06:48 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 15:06:48 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-06-29 15:06:48 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-09-29 15:09:10 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-29 15:09:10 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-09-29 15:09:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-09-29 15:09:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-09-29 15:09:14 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 9907 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-09-29 15:09:14 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-09-29 15:09:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-29 15:09:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-09-29 15:09:15 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=c3d737af-e5a7-3305-a7b0-c367d9e945a6
+2022-09-29 15:09:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-09-29 15:09:15 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-09-29 15:09:15 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-29 15:09:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-09-29 15:09:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1448 ms
+2022-09-29 15:09:16 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-09-29 15:09:16 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-09-29 15:09:16 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-09-29 15:09:16 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-29 15:09:16 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-29 15:09:16 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-29 15:09:16 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-29 15:09:17 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-29 15:09:17 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-29 15:09:17 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-29 15:09:17 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-29 15:09:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-29 15:09:17 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 4.177 seconds (JVM running for 5.24)
+2022-09-29 15:09:19 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 15:09:19 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-09-29 15:09:19 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-10-29 15:10:52 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-29 15:10:52 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-29 15:10:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-10-29 15:10:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-10-29 15:10:55 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 10023 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-10-29 15:10:55 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-10-29 15:10:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-29 15:10:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-10-29 15:10:56 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=c3d737af-e5a7-3305-a7b0-c367d9e945a6
+2022-10-29 15:10:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-10-29 15:10:56 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-10-29 15:10:56 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-29 15:10:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-10-29 15:10:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1294 ms
+2022-10-29 15:10:56 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-10-29 15:10:57 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-10-29 15:10:57 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-10-29 15:10:57 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-29 15:10:57 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-29 15:10:57 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-29 15:10:57 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-29 15:10:58 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-29 15:10:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-29 15:10:58 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-29 15:10:58 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-10-29 15:10:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-29 15:10:58 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 3.672 seconds (JVM running for 4.307)
+2022-11-29 15:11:15 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-29 15:11:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-11-29 15:11:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 4 ms
+2022-12-29 15:12:07 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 15:12:07 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-29 15:12:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-12-29 15:12:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-12-29 15:12:14 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 10110 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-12-29 15:12:14 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-12-29 15:12:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 15:12:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2022-12-29 15:12:15 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=1ad9b37a-c001-3e49-b158-a72f4f2e26ff
+2022-12-29 15:12:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-12-29 15:12:15 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-12-29 15:12:15 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-29 15:12:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-12-29 15:12:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1200 ms
+2022-12-29 15:12:16 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-12-29 15:12:16 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-12-29 15:12:16 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-12-29 15:12:16 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 15:12:16 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-29 15:12:16 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-29 15:12:16 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-29 15:12:17 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 15:12:17 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 15:12:17 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 15:12:17 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-12-29 15:12:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 15:12:17 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 3.485 seconds (JVM running for 4.035)
+2022-12-29 15:12:18 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-29 15:12:18 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-12-29 15:12:18 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-50-29 15:50:39 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m52s418ms).
+2022-02-29 16:02:07 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-29 16:02:07 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-02-29 16:02:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-02-29 16:02:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-02-29 16:02:10 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 11902 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-02-29 16:02:10 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-02-29 16:02:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-29 16:02:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-02-29 16:02:11 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=1ad9b37a-c001-3e49-b158-a72f4f2e26ff
+2022-02-29 16:02:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-02-29 16:02:11 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-02-29 16:02:11 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-02-29 16:02:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-02-29 16:02:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1609 ms
+2022-02-29 16:02:12 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-02-29 16:02:12 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-02-29 16:02:12 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-02-29 16:02:12 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-29 16:02:12 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-02-29 16:02:12 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-29 16:02:12 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-29 16:02:13 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-29 16:02:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-29 16:02:13 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-29 16:02:14 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 3 endpoint(s) beneath base path '/actuator'
+2022-02-29 16:02:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-29 16:02:14 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 4.615 seconds (JVM running for 5.377)
+2022-02-29 16:02:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-29 16:02:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-02-29 16:02:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-11-29 16:11:59 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 16:11:59 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-11-29 16:11:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-11-29 16:11:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-12-29 16:12:02 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 12709 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-12-29 16:12:02 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-12-29 16:12:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 16:12:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-12-29 16:12:03 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=c3d737af-e5a7-3305-a7b0-c367d9e945a6
+2022-12-29 16:12:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-12-29 16:12:04 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-12-29 16:12:04 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-29 16:12:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-12-29 16:12:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1319 ms
+2022-12-29 16:12:04 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-12-29 16:12:04 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-12-29 16:12:04 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-12-29 16:12:04 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 16:12:04 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-29 16:12:04 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-29 16:12:05 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-29 16:12:05 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 16:12:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 16:12:05 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 16:12:06 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-12-29 16:12:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 16:12:06 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 3.8 seconds (JVM running for 4.404)
+2022-12-29 16:12:13 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-29 16:12:13 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-12-29 16:12:13 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 3 ms
+2022-38-29 16:38:59 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-38-29 16:38:59 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-38-29 16:38:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-38-29 16:38:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-39-29 16:39:07 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 14134 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-39-29 16:39:07 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-39-29 16:39:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-39-29 16:39:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-39-29 16:39:08 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=1ad9b37a-c001-3e49-b158-a72f4f2e26ff
+2022-39-29 16:39:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-39-29 16:39:08 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-39-29 16:39:08 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-39-29 16:39:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-39-29 16:39:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1326 ms
+2022-39-29 16:39:08 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-39-29 16:39:08 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-39-29 16:39:08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-39-29 16:39:08 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-39-29 16:39:09 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-39-29 16:39:09 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-39-29 16:39:09 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-39-29 16:39:09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-39-29 16:39:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-39-29 16:39:09 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-39-29 16:39:10 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-39-29 16:39:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-39-29 16:39:10 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 3.7 seconds (JVM running for 4.364)
+2022-39-29 16:39:11 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-39-29 16:39:11 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-39-29 16:39:11 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-40-29 16:40:15 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-40-29 16:40:15 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-40-29 16:40:15 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-40-29 16:40:15 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-40-29 16:40:17 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 14206 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-40-29 16:40:17 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-40-29 16:40:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-40-29 16:40:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-40-29 16:40:18 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=1ad9b37a-c001-3e49-b158-a72f4f2e26ff
+2022-40-29 16:40:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-40-29 16:40:18 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-40-29 16:40:18 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-40-29 16:40:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-40-29 16:40:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1266 ms
+2022-40-29 16:40:19 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-40-29 16:40:19 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-40-29 16:40:19 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-40-29 16:40:19 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-40-29 16:40:19 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-40-29 16:40:19 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-40-29 16:40:19 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-40-29 16:40:20 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-40-29 16:40:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-40-29 16:40:20 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-40-29 16:40:20 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-40-29 16:40:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-40-29 16:40:20 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 3.587 seconds (JVM running for 4.056)
+2022-40-29 16:40:22 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-40-29 16:40:22 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-40-29 16:40:22 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-41-29 16:41:47 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-41-29 16:41:47 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-41-29 16:41:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-41-29 16:41:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-41-29 16:41:52 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Starting SpringbootMasterclassAmigoscodeApplication using Java 17.0.4.1 on mkb-pro-andreas.local with PID 14303 (/Users/andreas/Desktop/builds/springboot-masterclass-amigoscode/target/classes started by andreas in /Users/andreas/Desktop/builds/springboot-masterclass-amigoscode)
+2022-41-29 16:41:52 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication No active profile set, falling back to 1 default profile: "default"
+2022-41-29 16:41:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-41-29 16:41:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-41-29 16:41:53 [main] INFO  o.s.cloud.context.scope.GenericScope BeanFactory id=1ad9b37a-c001-3e49-b158-a72f4f2e26ff
+2022-41-29 16:41:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2022-41-29 16:41:53 [main] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2022-41-29 16:41:53 [main] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-41-29 16:41:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-41-29 16:41:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1183 ms
+2022-41-29 16:41:54 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-41-29 16:41:54 [main] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-41-29 16:41:54 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration H2 console available at '/h2'. Database available at 'jdbc:h2:mem:springdb'
+2022-41-29 16:41:54 [main] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-41-29 16:41:54 [main] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-41-29 16:41:54 [main] INFO  o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-41-29 16:41:54 [main] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-41-29 16:41:55 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-41-29 16:41:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-41-29 16:41:55 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-41-29 16:41:55 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-41-29 16:41:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2022-41-29 16:41:55 [main] INFO  t.c.s.SpringbootMasterclassAmigoscodeApplication Started SpringbootMasterclassAmigoscodeApplication in 3.221 seconds (JVM running for 3.74)
+2022-41-29 16:41:56 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-41-29 16:41:56 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-41-29 16:41:56 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2022-49-29 16:49:43 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-49-29 16:49:43 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-49-29 16:49:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-49-29 16:49:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
