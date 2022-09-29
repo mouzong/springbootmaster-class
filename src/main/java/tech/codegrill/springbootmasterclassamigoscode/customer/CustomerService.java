@@ -2,26 +2,24 @@ package tech.codegrill.springbootmasterclassamigoscode.customer;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import tech.codegrill.springbootmasterclassamigoscode.exception.NotFoundException;
 
 import java.util.List;
-
-@Component
+@Service
 public class CustomerService {
-    private final CustomerRepo customerRepo;
+    private final CustomerRepository customerRepository;
 
-    public CustomerService(CustomerRepo customerRepo) {
-        this.customerRepo = customerRepo;
+    public CustomerService(CustomerRepository customerRepo) {
+
+        this.customerRepository = customerRepo;
     }
     public List<Customer> getCustomers() {
 
-        return customerRepo.getCustomers();
+        return customerRepository.findAll();
     }
      public Customer getCustomer(Long id) {
-        return customerRepo.getCustomers()
-                .stream()
-                .filter(customer -> customer.getId().equals(id))
-                .findFirst()
+        return customerRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException("Customer with ID "+ id +" not found"));
      }
 }
