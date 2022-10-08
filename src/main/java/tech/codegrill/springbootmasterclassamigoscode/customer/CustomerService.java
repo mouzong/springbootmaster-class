@@ -1,5 +1,7 @@
 package tech.codegrill.springbootmasterclassamigoscode.customer;
 
+import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -10,27 +12,25 @@ import tech.codegrill.springbootmasterclassamigoscode.exception.NotFoundExceptio
 import java.util.List;
 
 @Service
+@AllArgsConstructor
+@Slf4j
 public class CustomerService {
 
-    private final static Logger logger = LoggerFactory.getLogger(CustomerService.class);
     private final CustomerRepository customerRepository;
 
-    public CustomerService(CustomerRepository customerRepo) {
 
-        this.customerRepository = customerRepo;
-    }
 
     public List<Customer> getCustomers() {
-        logger.info("Running the Service getCustomers Method");
+        log.info("Running the Service getCustomers Method");
         return customerRepository.findAll();
     }
 
     public Customer getCustomer(Long id) {
-        logger.info("Getting the customers from the Service getCustomer() methode");
+        log.info("Getting the customers from the Service getCustomer() methode");
         return customerRepository.findById(id)
                 .orElseThrow(() -> {
                     NotFoundException notFoundException = new NotFoundException("Customer with ID " + id + " not found");
-                    logger.error(" Error in getting Customer {}", id, notFoundException);
+                    log.error(" Error in getting Customer {}", id, notFoundException);
                     return notFoundException;
                 });
     }

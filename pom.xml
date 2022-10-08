@@ -89,6 +89,10 @@
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>pl.project13.maven</groupId>-->
 <!--            <artifactId>git-commit-id-plugin</artifactId>-->
