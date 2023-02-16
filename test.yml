@@ -29,7 +29,50 @@
   - name: Display result
     debug:
       var: result
+
+
+- name: Inject secret object into CyberArk safe
+  hosts: target_hosts
+  vars:
+    ca_cert_path: /path/to/cert.pem
+    client_cert_path: /path/to/client.pem
+    client_key_path: /path/to/client.key
+    app_id: "YourAppID"
+    safe_name: "YourSafeName"
+    object_data_path: /path/to/object_data.json
+  tasks:
+    - name: Inject secret object
+      uri:
+        url: https://<PVWA hostname>/PasswordVault/api/objects/import
+        method: POST
+        validate_certs: yes
+        client_cert: "{{ client_cert_path }}"
+        client_key: "{{ client_key_path }}"
+        headers:
+          Content-Type: "application/json"
+          Authorization: "PSGI {{ app_id }}"
+        body_format: json
+        body:
+          apiVersion: 1
+          objects: [ "{{ lookup('file', object_data_path) }}" ]
+          folder: "{{ safe_name }}"
+          options:
+            ignoreDuplicates: false
+            replaceIfExists: true
+      register: result
       
+    - debug:
+        var: result.content
+Replace the variables in the playbook with the appropriate values for your environment.
+
+Run the playbook with the command ansible-playbook <playbook_name>.yml.
+
+This should inject the secret object into the specified safe in CyberArk. Note that the object_data.json file should contain the secret object data in the format expected by the CyberArk REST API. You can create this file manually or generate it dynamically using Ansible.
+
+
+
+
+
       
       
       
