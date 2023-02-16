@@ -1,0 +1,35 @@
+- name: Insert secret object into CyberArk safe
+  hosts: localhost
+  tasks:
+  - name: Create secret object
+    set_fact:
+      secret:
+        safe: "{{ safe_name }}"
+        folder: "{{ folder_name }}"
+        object: "{{ object_name }}"
+        content: "{{ secret_content }}"
+        description: "{{ object_description }}"
+        acessControlRules: "{{ access_rules }}"
+
+  - name: Insert secret object
+    cyberark.cyberark.safe_secret:
+      host: "{{ cyberark_host }}"
+      cert: "{{ cert_path }}"
+      key: "{{ key_path }}"
+      appid: "{{ appid }}"
+      state: present
+      safe: "{{ secret.safe }}"
+      folder: "{{ secret.folder }}"
+      object: "{{ secret.object }}"
+      value: "{{ secret.content }}"
+      description: "{{ secret.description }}"
+      access_rules: "{{ secret.acessControlRules }}"
+    register: result
+
+  - name: Display result
+    debug:
+      var: result
+      
+      
+      
+      
